@@ -92,11 +92,11 @@ params:
     title: "Andrew Ng."
     subtitle: "Undergraduate at the University of Pennsylvania "
     content: "Majoring in Systems Science and Engineering with minors in Statistics (Wharton) and Mathematics"
-    image: /images/me.JPG
+    image: /images/Andrew.jpeg
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/file/d/1qYXmqa4PFqCcdpTvdQs9z35e8nAkWg_r/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1keOLmE5cUeWV_Dp9aI5p60hLs_rMiwS3/view?usp=sharing"
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -113,18 +113,18 @@ params:
     title: "About Me"
     image: "/images/avatar.png"
     content: |-
-      I am student in SEAS at the University of Pennsylvania passionate about data science. I have a background in computer science and mathematics, and I have strong interests in the tech and finance. 
+      I am student in SEAS at the University of Pennsylvania passionate about data science, machine learning, and artificial intelligence. I have a background in computer science and mathematics, and I have strong interests in the tech and finance. 
   # I am currently working on a project that will be used to help people find the best way to get around the city.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
         - "Java"
-        - "Python"
+        - "Python (Pandas, Numpy, Matplotlib, Sci-kit, CVXPY, TensorFlow, PyTorch"
         - "HTML"
-      #  - "React"
-      #  - "Node"
-      #  - "Express"
+        - "OCaml"
+        - "React"
+        - "NodeJS"
         - "SolidWorks"
         - "Fusion360"
 
@@ -157,6 +157,24 @@ params:
 
       #     - Lead backend developer for a product.
       #     - Created a frontend design for a product.
+      
+      - job: "Undegraduate Researcher"
+        company: "Perelman School of Medicine"
+        #companyUrl: "https://example.com"
+        date: "Oct 2022 - Present"
+        info:
+          enable: true
+        featuredLink:
+          enable: true
+          url: "https://www.med.upenn.edu/apps/faculty/index.php/g275/p9247599"
+        content: |
+          Applied machine learning/deep learning techniques to
+          medical imaging for disease diagnosis, prognosis, and 
+          cancer treatment monitoring
+
+          Implemented existing machine learning algorithms to better 
+          understand early hepatic fibrosis diagnosis
+
 
       - job: "Student Researcher"
         company: "University of Pennsylvania CIS Dpt"
@@ -168,12 +186,12 @@ params:
           enable: true
           url: "https://www.cis.upenn.edu/~fbrett/research.html"
         content: |
-          Conducting blockchain research on the stability of financial networks between NFT transactions
+          Conducted blockchain research which involved sweeping Ethereum transaction data 
+          from various NFT marketplaces using Python (inc. pandas, numPy, matplotlib) to find market 
+          trends and analyze the stability of financial networks
 
-          Using Ethereum IDE to sweep transaction data to perform data analysis to understand the risk of growing networks
-
-          Working under the guidance of Professor Brett Falk and Ph.D. student Niuniu Zhang with the goal of publishing research
-
+          Utilized concepts from existing financial models, the research to-be-published
+          aims to investigate optimal royalty rates for creators in the growing digital art market
 
       - job: "Data Analyst"
         company: "Daily Pennsylvanian"
@@ -186,7 +204,7 @@ params:
           Leverage modern tools and technologies to enhance the digital and data analytics capabilities of the DP
 
 
-          Use data analysis through Python and Google Analytics to automate weekly analytic reports for the company
+          Used Dash, Plotly, and Google Analytics to automate analytic reports for the company by hosting to dashboard website
 
 
           Working on long-term project of topic analysis using natural language processing analyses
@@ -210,12 +228,18 @@ params:
           name: "University of Pennsylvania"
           url: "https://example.org"
         date: "2021 - 2025"
-        GPA: "4.0 out of 4.0"
         content: |-
           Activities: Daily Pennsylvanian (Data Analyst), Wharton Undergraduate Sports Business Club (Finance Committee), Penn Data Science Group (Kaggle Team), Penn Newman Society, Penn Pickup Soccer Club (Events Coordinator)
 
 
-          Relavent Coursework: CIS 110 (Intro to Java), ECON 001 (Intro to Microeconomics), MATH 240 (Intro to Linear Algebra and Differential Equations), MATH 114 (Multivariable Calc), PHYS 150 (Principles of Physics I: Mechanics and Wave Motion), MEAM 101 (Intro to Mechanical Design), EAS 203 (Engineering Ethics), WRIT-002 (Writing Seminar)
+          Relavent Coursework: Daily Pennsylvanian (Data Analyst), 
+                              Penn Data Science Group (Kaggle Team), 
+                              Penn Blockchain (Investment/Research Team),
+                              Wharton Undergraduate Sports Business Club (Finance Committee), 
+                              Penn Data Science Group (Kaggle Team), 
+                              Penn Newman Society, 
+                              Penn Pickup Soccer Club (Events Coordinator)
+
 
         featuredLink:
           enable: false
@@ -226,7 +250,7 @@ params:
           name: "Leonardtown High School"
           url: "https://schools.smcps.org/lhs/"
         date: "2017 - 2021"
-        GPA: "4.53 out of 5.0"
+        #GPA: "4.53 out of 5.0"
         content:  |-
           SAT: 1540,  National AP Scholar, National Merit Commended Student, National Piano Teacher's Giuld Award, Varsity Soccer (2021 Player of the Year), Varsity Track, Chamber Orchestra, Student Government, National Honor Society, Principal's Advisory Committee, MD State Music Theory Advanced Award
         #featuredLink:
@@ -260,7 +284,7 @@ params:
         image: /images/DP.png
         featured:
           name: Demo
-          link: https://colab.research.google.com/drive/14liPFRKVD1axPStDSNXqubB3ln8L7Z6U
+          #link: https://colab.research.google.com/drive/14liPFRKVD1axPStDSNXqubB3ln8L7Z6U
         # badges:
         #   - "Hugo"
         #   - "Bootstrap"
@@ -299,6 +323,22 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/ngving22/2048_game
+            
+       - title: "Weather App"
+        content: Allows users to grab relevant weather data via OpenWeather API. 
+                 Built app using React and Node JS.
+        image: /images/weather.jpg
+        featured:
+          #name: Demo V2
+          #link: https://github.com/ngving22/2048_game
+        # badges:
+        #   - "Hugo"
+        #   - "Bootstrap"
+        #   - "Javascript"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/ngving22/Weather-App
+
 
   #Contact
   contact:
